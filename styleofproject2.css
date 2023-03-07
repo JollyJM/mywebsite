@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font: 1.5rem arial;
+  min-height: 100vh;
+  background-color: #475569;
+  background-image: radial-gradient(whitesmoke gray);
+  display: flex;
+  flex-direction: column;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.nowrap{
+  word-wrap:;
+}
+header,nav,main,footer{
+  display: grid;
+  place-content: center center;
+  grid-template-columns: 100%;
+}
+header,footer{
+  position: sticky;
+  background-color: #1e293b;
+  color: whitesmoke;
+  text-align: center;
+}
+
+header{
+  top: 0;
+}
+nav{
+  background-color: white;
+  padding: 0.5rem;
+  border-bottom: 2px solid black;
+  font-weight:bold ;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a:visited{
+  color: black;
+}
+
+nav a:hover,:focus{
+color: rgba(0, 0, 0, 0.45);
+}
+main{
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap:1.5rem ;
+  padding: 1rem;
+}
+footer{
+  bottom: 0;
+}
+
+.card{
+  scroll-margin-top:8rem ;
+  width: min(100%, 350px);
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card figure {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.card img{
+  border: 5px double black;
+  border-radius: 50%;
+}
+.card figcaption{
+  font-weight:bolder ;
+  font-size: 2rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

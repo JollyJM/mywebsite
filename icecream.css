@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+/* body{ */
+/*   background-color: rgba( */250, 235, 215, 0.736);
+/* } */
+/*  */
+/* ul{ */
+/*   list-style-type: none; */
+/*   display: grid; */
+/*   grid-auto-flow: column; */
+/*   margin: 4rem; */
+/* } */
+/* li a{ */
+  display: block;
+/*   font-size: 2rem; */
+/* } */
+/* li a, */
+/* li a:visited{ */
+/*   text-decoration: none; */
+/*   color: black;} */
+/*  main{ */
+/*  */
+/* padding: 0rem; */
+/* margin-left:20rem  ; */
+/* margin-right:20rem ; */
+/* position: relative; */
+/* }  */
+/* .jasto{ */
+/*   position: relative; */
+/*   width: 400px; */
+/*   float: right; */
+/*   left: 0px; */
+/*    */
+/* } */
+/* .jolly{ */
+/*   display: flex; */
+/*   flex-direction: row; */
+/* } */
+/* .gjjm{ */
+/*   border: solid gray; */
+/*   padding-bottom: 500px; */
+/*   margin-left:100px ; */
+/*   margin-right:450px ; */
+/* } */
+/* h1{ */
+/*   font-size: 3rem; */
+/*   position: relative; */
+/*   right: 20rem; */
+/*   padding-left:2rem ; */
+/*   padding-top: 2rem; */
+/* } */
+/*  p{ */
+/*   font-size: 2rem; */
+/*   position: relative; */
+/*   right: 20rem; */
+/*   width: 40ch; */
+/*   padding: 2rem; */
+/*  } */
+ 
+
+
+
